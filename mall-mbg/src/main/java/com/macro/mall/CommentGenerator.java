@@ -27,6 +27,7 @@ public class CommentGenerator extends DefaultCommentGenerator {
     public void addConfigurationProperties(Properties properties) {
         super.addConfigurationProperties(properties);
         this.addRemarkComments = StringUtility.isTrue(properties.getProperty("addRemarkComments"));
+        System.out.println("aaaaaaa");
     }
 
     /**
